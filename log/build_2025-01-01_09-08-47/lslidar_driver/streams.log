@@ -1,0 +1,131 @@
+[0.006s] Invoking command in '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/src/LSLIDAR_X_ROS2/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver
+[0.022s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+[0.023s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.211s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.369s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[0.370s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.370s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.370s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.370s]   cmake_policy command to set the policy and suppress this warning.
+[0.370s] 
+[0.370s]   CMake variable FLANN_ROOT is set to:
+[0.370s] 
+[0.370s]     /usr
+[0.370s] 
+[0.371s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.371s]   .cmake module might still use it.
+[0.371s] Call Stack (most recent call first):
+[0.371s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.371s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.371s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.371s]   CMakeLists.txt:21 (find_package)
+[0.371s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.371s] [0m
+[0.371s] -- Found flann version 1.9.2
+[0.665s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.669s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.671s] -- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[0.960s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.965s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.223s] -- Found Qhull version 8.0.2
+[1.494s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.756s] -- looking for PCL_COMMON
+[1.756s] -- looking for PCL_KDTREE
+[1.756s] -- looking for PCL_OCTREE
+[1.756s] -- looking for PCL_SEARCH
+[1.757s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.757s] -- looking for PCL_FILTERS
+[1.757s] -- looking for PCL_2D
+[1.758s] -- looking for PCL_GEOMETRY
+[1.758s] -- looking for PCL_IO
+[1.758s] -- looking for PCL_FEATURES
+[1.758s] -- looking for PCL_ML
+[1.758s] -- looking for PCL_SEGMENTATION
+[1.759s] -- looking for PCL_VISUALIZATION
+[1.759s] -- looking for PCL_SURFACE
+[1.759s] -- looking for PCL_REGISTRATION
+[1.760s] -- looking for PCL_KEYPOINTS
+[1.760s] -- looking for PCL_TRACKING
+[1.760s] -- looking for PCL_RECOGNITION
+[1.761s] -- looking for PCL_STEREO
+[1.761s] -- looking for PCL_APPS
+[1.762s] -- looking for PCL_IN_HAND_SCANNER
+[1.762s] -- looking for PCL_MODELER
+[1.762s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.762s] -- looking for PCL_OUTOFCORE
+[1.763s] -- looking for PCL_PEOPLE
+[1.766s] -- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[1.802s] -- Found lslidar_msgs: 1.2.0 (/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[1.823s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.836s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.973s] -- Configuring done (2.0s)
+[2.033s] -- Generating done (0.0s)
+[2.039s] -- Build files have been written to: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver
+[2.051s] Invoked command in '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/src/LSLIDAR_X_ROS2/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver
+[2.051s] Invoking command in '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver -- -j16 -l16
+[2.094s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[2.094s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[2.094s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[2.094s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[9.376s] [01m[K/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/src/LSLIDAR_X_ROS2/lslidar_driver/src/lslidar_driver.cc:[m[K In member function ‘[01m[Kbool lslidar_driver::LslidarDriver::[01;32m[Kpolling[m[K()[m[K’:
+[9.377s] [01m[K/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/src/LSLIDAR_X_ROS2/lslidar_driver/src/lslidar_driver.cc:1413:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K operator delete[m[K(void*, std::size_t)[m[K’ called on pointer returned from a mismatched allocation function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmismatched-new-delete-Wmismatched-new-delete]8;;[m[K]
+[9.377s]  1413 |                 delete [01;35m[Kpacket_bytes[m[K;
+[9.377s]       |                        [01;35m[K^~~~~~~~~~~~[m[K
+[9.377s] [01m[K/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/src/LSLIDAR_X_ROS2/lslidar_driver/src/lslidar_driver.cc:1270:68:[m[K [01;36m[Knote: [m[Kreturned from ‘[01m[Kvoid*[01;32m[K operator new [][m[K(std::size_t)[m[K’
+[9.377s]  1270 |                 unsigned char *packet_bytes = new unsigned char[500[01;36m[K][m[K;
+[9.377s]       |                                                                    [01;36m[K^[m[K
+[12.002s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[13.020s] [100%] Built target lslidar_driver_node
+[13.028s] Invoked command in '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver -- -j16 -l16
+[13.029s] Invoking command in '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver
+[13.034s] -- Install configuration: ""
+[13.034s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch
+[13.034s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[13.034s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[13.035s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[13.036s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[13.049s] -- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[13.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[13.051s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[13.051s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.051s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.051s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[13.051s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[13.051s] -- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[13.052s] Invoked command in '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver

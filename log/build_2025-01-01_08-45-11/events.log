@@ -1,0 +1,623 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.000233] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict({'lslidar_msgs': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs'})}
+[0.000345] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.005258] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.005494] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/src/LSLIDAR_X_ROS2/lslidar_msgs', '-DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs'], 'cwd': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'Dell-G15-5511', 'GIT_ASKPASS': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f5b4c795-6c58-4156-833e-33d0f51431fe.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e936771e-8caf-4796-a00f-c7c89f403182.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock","/root/.gnupg/S.gpg-agent","/root/.gnupg/S.keyboxd"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d047f6e405.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.079811] (lslidar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099890] (-) TimerEvent: {}
+[0.135596] (lslidar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.148167] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200013] (-) TimerEvent: {}
+[0.208024] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.214714] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.215036] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.215468] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.222880] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.287812] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.294424] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.294562] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.294890] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.300091] (-) TimerEvent: {}
+[0.300218] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400194] (-) TimerEvent: {}
+[0.402890] (lslidar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.492833] (lslidar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.500281] (-) TimerEvent: {}
+[0.532284] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.545953] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.564490] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.582478] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600377] (-) TimerEvent: {}
+[0.614548] (lslidar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.661864] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.675520] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.679091] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.700434] (-) TimerEvent: {}
+[0.800586] (-) TimerEvent: {}
+[0.900805] (-) TimerEvent: {}
+[1.001021] (-) TimerEvent: {}
+[1.101302] (-) TimerEvent: {}
+[1.117162] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.201452] (-) TimerEvent: {}
+[1.301663] (-) TimerEvent: {}
+[1.401955] (-) TimerEvent: {}
+[1.502180] (-) TimerEvent: {}
+[1.602450] (-) TimerEvent: {}
+[1.621975] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702619] (-) TimerEvent: {}
+[1.802846] (-) TimerEvent: {}
+[1.819638] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.822891] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.902996] (-) TimerEvent: {}
+[1.910615] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.003089] (-) TimerEvent: {}
+[2.103425] (-) TimerEvent: {}
+[2.203686] (-) TimerEvent: {}
+[2.238875] (lslidar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.279326] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.280851] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.282071] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.285930] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[2.303765] (-) TimerEvent: {}
+[2.316387] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.324920] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs\n'}
+[2.331961] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[2.332297] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[2.332837] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs', '--', '-j16', '-l16'], 'cwd': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'Dell-G15-5511', 'GIT_ASKPASS': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f5b4c795-6c58-4156-833e-33d0f51431fe.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e936771e-8caf-4796-a00f-c7c89f403182.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock","/root/.gnupg/S.gpg-agent","/root/.gnupg/S.keyboxd"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d047f6e405.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.367942] (lslidar_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.373582] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_lslidar_msgs\n'}
+[2.403865] (-) TimerEvent: {}
+[2.504177] (-) TimerEvent: {}
+[2.513363] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.514068] (lslidar_msgs) StdoutLine: {'line': b'creating lslidar_msgs.egg-info\n'}
+[2.526535] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[2.526685] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[2.526760] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[2.526821] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[2.565891] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[2.566163] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[2.584452] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[2.585514] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__rosidl_generator_type_description\n'}
+[2.592575] (lslidar_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.599330] (lslidar_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.604260] (-) TimerEvent: {}
+[2.704485] (-) TimerEvent: {}
+[2.804768] (-) TimerEvent: {}
+[2.905120] (-) TimerEvent: {}
+[2.912963] (lslidar_msgs) StdoutLine: {'line': b'[  4%] Built target lslidar_msgs__cpp\n'}
+[2.983543] (lslidar_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__description.c.o\x1b[0m\n'}
+[2.983794] (lslidar_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__description.c.o\x1b[0m\n'}
+[2.983886] (lslidar_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o\x1b[0m\n'}
+[2.983980] (lslidar_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__description.c.o\x1b[0m\n'}
+[2.984060] (lslidar_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o\x1b[0m\n'}
+[2.985166] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__description.c.o\x1b[0m\n'}
+[2.985435] (lslidar_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o\x1b[0m\n'}
+[2.985526] (lslidar_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o\x1b[0m\n'}
+[2.985596] (lslidar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o\x1b[0m\n'}
+[2.985647] (lslidar_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o\x1b[0m\n'}
+[2.985695] (lslidar_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__description.c.o\x1b[0m\n'}
+[2.985742] (lslidar_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o\x1b[0m\n'}
+[2.985790] (lslidar_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o\x1b[0m\n'}
+[2.985838] (lslidar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o\x1b[0m\n'}
+[2.985886] (lslidar_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o\x1b[0m\n'}
+[3.005237] (-) TimerEvent: {}
+[3.043621] (lslidar_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.072355] (lslidar_msgs) StdoutLine: {'line': b'[ 25%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[3.080652] (lslidar_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.080887] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.080969] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.081044] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.081117] (lslidar_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.081189] (lslidar_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.105337] (-) TimerEvent: {}
+[3.205607] (-) TimerEvent: {}
+[3.305864] (-) TimerEvent: {}
+[3.330716] (lslidar_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[3.330944] (lslidar_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[3.331062] (lslidar_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[3.332581] (lslidar_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[3.332762] (lslidar_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[3.362569] (lslidar_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[3.363020] (lslidar_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[3.365267] (lslidar_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[3.365490] (lslidar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[3.365596] (lslidar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[3.380606] (lslidar_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.384084] (lslidar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[3.384836] (lslidar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[3.385023] (lslidar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[3.385130] (lslidar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[3.385221] (lslidar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[3.405965] (-) TimerEvent: {}
+[3.425798] (lslidar_msgs) StdoutLine: {'line': b'[ 55%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[3.439667] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o\x1b[0m\n'}
+[3.439913] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o\x1b[0m\n'}
+[3.439997] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o\x1b[0m\n'}
+[3.440080] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o\x1b[0m\n'}
+[3.485482] (lslidar_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o\x1b[0m\n'}
+[3.506463] (-) TimerEvent: {}
+[3.515108] (lslidar_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o\x1b[0m\n'}
+[3.515362] (lslidar_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o\x1b[0m\n'}
+[3.517689] (lslidar_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o\x1b[0m\n'}
+[3.517890] (lslidar_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o\x1b[0m\n'}
+[3.527380] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[3.536677] (lslidar_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.576374] (lslidar_msgs) StdoutLine: {'line': b'[ 70%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[3.586616] (lslidar_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[3.607464] (-) TimerEvent: {}
+[3.707779] (-) TimerEvent: {}
+[3.709383] (lslidar_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[3.723208] (lslidar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[3.731550] (lslidar_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[3.732078] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o\x1b[0m\n'}
+[3.740311] (lslidar_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.778234] (lslidar_msgs) StdoutLine: {'line': b'[ 78%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[3.807866] (-) TimerEvent: {}
+[3.822491] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.879510] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.908005] (-) TimerEvent: {}
+[4.008337] (-) TimerEvent: {}
+[4.108614] (-) TimerEvent: {}
+[4.151314] (lslidar_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.169997] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.187235] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.208703] (-) TimerEvent: {}
+[4.221330] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.236075] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] Built target lslidar_msgs\n'}
+[4.249097] (lslidar_msgs) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.308853] (-) TimerEvent: {}
+[4.409070] (-) TimerEvent: {}
+[4.509340] (-) TimerEvent: {}
+[4.609607] (-) TimerEvent: {}
+[4.690403] (lslidar_msgs) StdoutLine: {'line': b'[ 83%] Built target lslidar_msgs__py\n'}
+[4.704837] (lslidar_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o\x1b[0m\n'}
+[4.705039] (lslidar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o\x1b[0m\n'}
+[4.705120] (lslidar_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o\x1b[0m\n'}
+[4.705197] (lslidar_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o\x1b[0m\n'}
+[4.705271] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o\x1b[0m\n'}
+[4.709691] (-) TimerEvent: {}
+[4.810064] (-) TimerEvent: {}
+[4.832624] (lslidar_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library liblslidar_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.863747] (lslidar_msgs) StdoutLine: {'line': b'[ 91%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[4.878494] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.878646] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.878702] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.910223] (-) TimerEvent: {}
+[4.956704] (lslidar_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.956913] (lslidar_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.957003] (lslidar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.978616] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs_s__rosidl_typesupport_c\n'}
+[4.978862] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs_s__rosidl_typesupport_introspection_c\n'}
+[4.978949] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[4.987251] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[4.987739] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[4.993330] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs'], 'cwd': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'Dell-G15-5511', 'GIT_ASKPASS': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f5b4c795-6c58-4156-833e-33d0f51431fe.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e936771e-8caf-4796-a00f-c7c89f403182.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock","/root/.gnupg/S.gpg-agent","/root/.gnupg/S.keyboxd"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d047f6e405.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_msgs', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.998957] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.999051] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[4.999127] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.json\n'}
+[4.999187] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.json\n'}
+[4.999243] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.json\n'}
+[4.999300] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.json\n'}
+[4.999357] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.json\n'}
+[4.999420] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[4.999482] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[4.999542] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.999603] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h\n'}
+[4.999666] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[4.999721] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__description.c\n'}
+[4.999791] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[4.999846] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[4.999904] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[4.999965] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[5.000022] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[5.000078] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__description.c\n'}
+[5.000133] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[5.000196] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[5.000253] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[5.000309] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[5.000363] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[5.000420] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__description.c\n'}
+[5.000483] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[5.000538] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[5.000592] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[5.000647] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[5.000707] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[5.000761] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__description.c\n'}
+[5.000818] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[5.000873] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[5.000927] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[5.000982] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[5.001037] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[5.001091] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__description.c\n'}
+[5.001158] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[5.001205] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[5.001261] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[5.001306] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[5.001361] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[5.001415] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[5.001478] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h\n'}
+[5.001522] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h\n'}
+[5.001576] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[5.001619] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[5.001665] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[5.001708] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[5.001854] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""\n'}
+[5.001919] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[5.001972] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[5.002026] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.002070] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[5.002123] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[5.002166] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[5.002218] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[5.002279] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[5.002356] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[5.002486] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.002907] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.002978] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[5.003034] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[5.003093] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.003147] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[5.003205] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[5.003261] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[5.003314] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[5.003374] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[5.003432] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[5.003499] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[5.003563] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[5.003626] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[5.003684] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[5.003740] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[5.003794] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[5.003852] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[5.003914] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[5.003969] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[5.004025] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[5.004086] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[5.004140] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[5.004193] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[5.004245] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[5.004307] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[5.004368] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[5.004433] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[5.004489] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[5.004546] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[5.004598] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[5.004645] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[5.004701] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[5.004747] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.004803] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[5.004848] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.004908] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[5.004954] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.005000] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.005044] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.005090] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.005134] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.005293] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.005365] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[5.005429] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[5.005485] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.005547] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[5.005607] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[5.005667] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[5.005727] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[5.005780] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[5.005836] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[5.005883] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[5.005929] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[5.005973] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[5.006017] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[5.006061] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[5.006104] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.006159] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.006212] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[5.006456] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.006538] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[5.006596] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[5.006649] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[5.006695] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.006749] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[5.006802] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.006846] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[5.006899] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.006952] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[5.007005] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.007058] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[5.007131] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.007193] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[5.007294] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.007900] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.007965] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[5.008162] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.008220] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[5.008279] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[5.008331] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs-1.2.0-py3.12.egg-info\n'}
+[5.008382] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs-1.2.0-py3.12.egg-info/PKG-INFO\n'}
+[5.008440] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs-1.2.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.008497] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs-1.2.0-py3.12.egg-info/top_level.txt\n'}
+[5.008561] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs-1.2.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.008614] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs\n'}
+[5.008674] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/__init__.py\n'}
+[5.008728] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg\n'}
+[5.008772] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[5.008825] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[5.008890] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[5.008975] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[5.009058] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[5.009153] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[5.009236] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[5.009315] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[5.009396] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[5.009503] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[5.009586] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/__init__.py\n'}
+[5.009646] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.009737] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.009831] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.009924] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.so\n'}
+[5.010041] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.010148] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.010272] (-) TimerEvent: {}
+[5.042403] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs'...\n"}
+[5.042549] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/__init__.py'...\n"}
+[5.042600] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg'...\n"}
+[5.042647] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/__init__.py'...\n"}
+[5.042692] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_difop.py'...\n"}
+[5.042739] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_packet.py'...\n"}
+[5.042784] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_point.py'...\n"}
+[5.042829] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_scan.py'...\n"}
+[5.042874] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/msg/_lslidar_sweep.py'...\n"}
+[5.046434] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.046673] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.046933] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.047192] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.047432] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.so\n'}
+[5.047679] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[5.047747] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[5.048219] (lslidar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""\n'}
+[5.048277] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[5.048332] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[5.048387] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[5.048451] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[5.048507] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[5.048576] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[5.048644] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[5.048775] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[5.048833] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[5.048915] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[5.048972] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[5.049029] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[5.049092] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[5.049189] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[5.049254] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[5.049340] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[5.049404] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[5.049540] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[5.049602] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[5.049698] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[5.049756] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[5.049811] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[5.049871] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[5.049934] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.050004] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.050064] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.050129] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.050197] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.050254] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.050324] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.050383] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.050495] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.050556] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.050629] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.050699] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.050782] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.050841] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.050912] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.050974] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.051042] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.051101] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.051177] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.051241] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.051306] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.051369] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.051440] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.051508] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[5.051565] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[5.051622] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[5.053071] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[5.067929] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[5.068428] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[5.073629] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[5.073890] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/src/LSLIDAR_X_ROS2/lslidar_driver', '-DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_driver'], 'cwd': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'Dell-G15-5511', 'GIT_ASKPASS': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f5b4c795-6c58-4156-833e-33d0f51431fe.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e936771e-8caf-4796-a00f-c7c89f403182.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock","/root/.gnupg/S.gpg-agent","/root/.gnupg/S.keyboxd"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d047f6e405.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-e936771e-8caf-4796-a00f-c7c89f403182.sock', 'AMENT_PREFIX_PATH': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/build/lslidar_driver', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tungchiahui/UserFloder/mysource/CyberNaviRobot/ros2test_ws/install/lslidar_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.110422] (-) TimerEvent: {}
+[5.112861] (lslidar_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[5.151277] (lslidar_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[5.161499] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.210553] (-) TimerEvent: {}
+[5.217614] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.224435] (lslidar_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.224603] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.224982] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.231881] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.298268] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.304749] (lslidar_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.304851] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.305178] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.310612] (-) TimerEvent: {}
+[5.386061] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread \n'}
+[5.389200] (lslidar_driver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.410683] (-) TimerEvent: {}
+[5.491977] (lslidar_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.510815] (-) TimerEvent: {}
+[5.609783] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.610876] (-) TimerEvent: {}
+[5.621398] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.635633] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.650282] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.711015] (-) TimerEvent: {}
+[5.714536] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.717966] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.786556] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.800594] (lslidar_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.811107] (-) TimerEvent: {}
+[5.815618] (lslidar_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.911220] (-) TimerEvent: {}
+[5.926737] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization \n'}
+[5.927974] (lslidar_driver) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[5.928153] (lslidar_driver) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[5.928249] (lslidar_driver) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[5.928326] (lslidar_driver) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[5.928386] (lslidar_driver) StderrLine: {'line': b'\n'}
+[5.928445] (lslidar_driver) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[5.928542] (lslidar_driver) StderrLine: {'line': b'\n'}
+[5.928607] (lslidar_driver) StderrLine: {'line': b'    /usr\n'}
+[5.928664] (lslidar_driver) StderrLine: {'line': b'\n'}
+[5.928741] (lslidar_driver) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[5.928824] (lslidar_driver) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[5.928905] (lslidar_driver) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.928985] (lslidar_driver) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[5.929037] (lslidar_driver) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[5.929111] (lslidar_driver) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[5.929188] (lslidar_driver) StderrLine: {'line': b'  CMakeLists.txt:21 (find_package)\n'}
+[5.929272] (lslidar_driver) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.929354] (lslidar_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[5.929898] (lslidar_driver) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[6.011334] (-) TimerEvent: {}
+[6.111596] (-) TimerEvent: {}
+[6.140564] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[6.140741] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[6.167728] (lslidar_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.169308] (lslidar_driver) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[6.175463] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[6.211687] (-) TimerEvent: {}
+[6.294110] (lslidar_driver) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[6.294277] (lslidar_driver) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[6.296276] (lslidar_driver) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[6.306137] (lslidar_driver) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[6.311747] (-) TimerEvent: {}
+[6.320016] (lslidar_driver) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[6.335684] (lslidar_driver) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[6.411860] (-) TimerEvent: {}
+[6.422309] (lslidar_driver) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[6.422703] (lslidar_driver) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[6.483848] (lslidar_driver) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[6.484013] (lslidar_driver) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[6.511965] (-) TimerEvent: {}
+[6.541041] (lslidar_driver) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[6.541209] (lslidar_driver) StdoutLine: {'line': b'-- Looking for connect\n'}
+[6.597086] (lslidar_driver) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[6.597242] (lslidar_driver) StdoutLine: {'line': b'-- Looking for remove\n'}
+[6.612054] (-) TimerEvent: {}
+[6.654733] (lslidar_driver) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[6.654896] (lslidar_driver) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[6.709680] (lslidar_driver) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[6.709831] (lslidar_driver) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[6.712130] (-) TimerEvent: {}
+[6.766875] (lslidar_driver) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[6.812257] (-) TimerEvent: {}
+[6.844138] (lslidar_driver) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") \n'}
+[6.846259] (lslidar_driver) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[6.848168] (lslidar_driver) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") \n'}
+[6.849551] (lslidar_driver) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") \n'}
+[6.873535] (lslidar_driver) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[6.885384] (lslidar_driver) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  \n'}
+[6.888607] (lslidar_driver) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") \n'}
+[6.893045] (lslidar_driver) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[6.912380] (-) TimerEvent: {}
+[6.951062] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.960235] (lslidar_driver) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[6.981829] (lslidar_driver) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[6.982683] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[6.982768] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.012441] (-) TimerEvent: {}
+[7.017538] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[7.017648] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[7.019944] (lslidar_driver) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[7.020075] (lslidar_driver) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[7.112560] (-) TimerEvent: {}
+[7.212809] (-) TimerEvent: {}
+[7.300752] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.304517] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[7.312936] (-) TimerEvent: {}
+[7.413147] (-) TimerEvent: {}
+[7.513452] (-) TimerEvent: {}
+[7.558892] (lslidar_driver) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[7.613551] (-) TimerEvent: {}
+[7.713828] (-) TimerEvent: {}
+[7.814098] (-) TimerEvent: {}
+[7.819838] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.914227] (-) TimerEvent: {}
+[8.014536] (-) TimerEvent: {}
+[8.071548] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[8.073289] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[8.073361] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[8.074423] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[8.074543] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[8.075354] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[8.075589] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[8.076195] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[8.076293] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[8.077042] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[8.077106] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[8.077850] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[8.077913] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[8.078074] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[8.078178] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[8.078470] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[8.078553] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[8.079241] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[8.079360] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[8.080074] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[8.080196] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[8.080893] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[8.080983] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[8.081546] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[8.081712] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[8.082521] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[8.082665] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[8.083451] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[8.083600] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[8.084306] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[8.084471] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[8.085074] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[8.085197] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[8.085893] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[8.086010] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[8.086823] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[8.087015] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[8.087611] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[8.087720] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[8.088508] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[8.088942] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[8.089341] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[8.089576] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[8.089928] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[8.089987] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[8.090292] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[8.090348] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[8.091047] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[8.091180] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[8.091804] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[8.092365] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[8.100181] (lslidar_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[8.100249] (lslidar_driver) StderrLine: {'line': b'  By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this\n'}
+[8.100294] (lslidar_driver) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[8.100338] (lslidar_driver) StderrLine: {'line': b'  "diagnostic_updater", but CMake did not find one.\n'}
+[8.100381] (lslidar_driver) StderrLine: {'line': b'\n'}
+[8.100429] (lslidar_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[8.100473] (lslidar_driver) StderrLine: {'line': b'  "diagnostic_updater" with any of the following names:\n'}
+[8.100517] (lslidar_driver) StderrLine: {'line': b'\n'}
+[8.100563] (lslidar_driver) StderrLine: {'line': b'    diagnostic_updaterConfig.cmake\n'}
+[8.100607] (lslidar_driver) StderrLine: {'line': b'    diagnostic_updater-config.cmake\n'}
+[8.100650] (lslidar_driver) StderrLine: {'line': b'\n'}
+[8.100692] (lslidar_driver) StderrLine: {'line': b'  Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or\n'}
+[8.100735] (lslidar_driver) StderrLine: {'line': b'  set "diagnostic_updater_DIR" to a directory containing one of the above\n'}
+[8.100777] (lslidar_driver) StderrLine: {'line': b'  files.  If "diagnostic_updater" provides a separate development package or\n'}
+[8.100820] (lslidar_driver) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[8.100863] (lslidar_driver) StderrLine: {'line': b'\n'}
+[8.100906] (lslidar_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[8.100949] (lslidar_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.112673] (lslidar_driver) CommandEnded: {'returncode': 1}
+[8.114586] (-) TimerEvent: {}
+[8.124683] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 1}
+[8.135073] (-) EventReactorShutdown: {}
